@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+
+}
+.header{
+    border:2px solid blue;
+    padding: 362px 106px;
+}
+.main{
+    border:2px solid orange;
+    /* padding: 0 42%; */
+    margin: 1px;
+    display: flex;
+}
+.footer{
+    border:3px solid green
+}
+.user-input{
+    margin: 5px;
+    border: 2px solid cyan;
+}
+.company-name{
+    text-align: center;
+    padding: 26px;
+    border: 1px solid;
+    margin: 16px;
+    font-style: italic;
+    font-size: -webkit-xxx-large;
+}
+.form{
+    display:flex;
+    margin: 40px 0;
+}
+.style-forms{
+    border: 3px solid saddlebrown;
+    display: flex;
+    flex-wrap: wrap
+}
+.user-choice-style-form{
+    border: 5px solid blue;
+    padding: 152px;
+    margin: 5px;
+}
